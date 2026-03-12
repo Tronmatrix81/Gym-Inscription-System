@@ -12,11 +12,10 @@ import time
 
 databaseTest = [394350, 394569, 394468]
 
-matricula=input("Escribe tu matricula: ")
-for i in range(databaseTest):
-    if matricula==databaseTest[data]:
-        print("Bienvenido")
-    else:
-        print("Matricula invalida :/")
+matricula=int(input("Escribe tu matricula: "))
+if int(matricula) in databaseTest:
+    print("Bienvenido")
+else:
+    print("Usuario invalido")
 
 #Todavia no es funcional, solo el concepto
