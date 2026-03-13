@@ -5,6 +5,7 @@ Este script gestiona la entrada de miembros validando una matrícula o código Q
 (leído a través de un escáner USB que emula un teclado) contra una base de datos 
 local SQLite. Si el usuario está activo, simula el envío de una señal a una 
 chapa magnética (maglock) para abrir la puerta.
+
 """
 
 import sqlite3 # Database
