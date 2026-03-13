@@ -62,7 +62,7 @@ if __name__=="__main__":
         try:
             # Awaits for any input
             # split() removes any invisible space inside the string
-            matricula=input("\nDigita tu matricula o escanea tu codigo").split()
+            matricula=input("\nDigita tu matricula o escanea tu codigo: ").strip()
 
             if matricula != "":
                 validate_access(matricula)
