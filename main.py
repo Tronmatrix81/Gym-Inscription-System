@@ -53,7 +53,20 @@ if __name__=="__main__":
     print(" ▐▌    ▝▚▞▘ ▐▛▚▞▜▌    ▐▌    ▝▚▞▘▐▌     █  ▐▌   ▐▛▚▞▜▌ ")
     print(" ▐▌▝▜▌  ▐▌  ▐▌  ▐▌     ▝▀▚▖  ▐▌  ▝▀▚▖  █  ▐▛▀▀▘▐▌  ▐▌ ")
     print(" ▝▚▄▞▘  ▐▌  ▐▌  ▐▌    ▗▄▄▞▘  ▐▌ ▗▄▄▞▘  █  ▐▙▄▄▖▐▌  ▐▌ ")
-    print("                                                      ")                                                               
+    print("        Presiona Ctrl+C para salir del programa       ")                                                               
     print("======================================================")
                                                     
     # Infinite loop to keep the system online 24/7
+    while True:
+        try:
+            # Awaits for any input
+            # split() removes any invisible space inside the string
+            matricula=input("\nDigita tu matricula o escanea tu codigo").split()
+
+            if matricula != "":
+                validate_access(matricula)
+            
+        except KeyboardInterrupt:
+            # Detects admin input and exits the program
+            print("\nCerrando el programa..")
+            break
