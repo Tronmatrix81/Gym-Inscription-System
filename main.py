@@ -11,6 +11,9 @@ chapa magnética (maglock) para abrir la puerta.
 import sqlite3 # Database
 import time
 
+# Import our python files as if they were libraries
+from qr_scanner import scan_qr
+
 def connect_database():
     # Connects to the database
     return sqlite3.connect("gimnasio.db")
@@ -62,10 +65,12 @@ if __name__=="__main__":
         try:
             # Awaits for any input
             # split() removes any invisible space inside the string
-            matricula=input("\nDigita tu matricula o escanea tu codigo: ").strip()
+            matricula=scan_qr()
 
-            if matricula != "":
+            if matricula:
                 validate_access(matricula)
+
+            time.sleep(2)
             
         except KeyboardInterrupt:
             # Detects admin input and exits the program
