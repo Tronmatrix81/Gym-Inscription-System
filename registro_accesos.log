@@ -1,0 +1,15 @@
+2026-03-14 20:42:05 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-14 20:42:36 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-14 20:42:57 - [WARNING] - Acceso denegado (Inactivo). Usuario: Caleb (Matricula 394468)
+2026-03-14 20:43:08 - [INFO] - Acceso concedido. Usuario: Erik (Matricula: 394569)
+2026-03-14 20:43:16 - [WARNING] - Intento fallido. Matricula no encontrada: 39456
+2026-03-14 20:45:27 - [WARNING] - Error: Matricula no encontrada: 39456
+2026-03-14 20:46:17 - [WARNING] - Error: Matricula no encontrada: 39456
+2026-03-14 20:46:31 - [WARNING] - Acceso denegado. Matricula no encontrada: 39456
+2026-03-14 21:00:18 - [WARNING] - Acceso denegado. Matricula no encontrada: 39456
+2026-03-14 21:00:29 - [INFO] - Acceso concedido. Usuario: Erik (Matricula: 394569)
+2026-03-14 21:00:35 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-14 21:00:42 - [WARNING] - Acceso denegado (Inactivo). Usuario: Caleb (Matricula 394468)
+2026-03-14 21:06:16 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-14 21:07:18 - [INFO] - Sistema de acceso INICIADO.
+2026-03-14 21:07:25 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).

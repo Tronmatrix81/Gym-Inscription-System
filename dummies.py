@@ -1,7 +1,8 @@
 import sqlite3
+from database_connect import connect_database
 
 # Conectarnos a la base de datos
-conexion=sqlite3.connect("gimnasio.db")
+conexion=connect_database()
 cursor=conexion.cursor()
 
 # Usuarios de prueba (dupla)
