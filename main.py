@@ -10,19 +10,40 @@ chapa magnética (maglock) para abrir la puerta.
 
 import time
 import logging # For logs
+from logging.handlers import TimedRotatingFileHandler # For log rotation (Eliminates older logs when a new log is created)
+import os
 
 # Import our python files as if they were libraries
 from qr_scanner import scan_qr
 from access_validation import validate_access
 
-
 # --- LOG STRUCTURE CONFIG ---
-logging.basicConfig(
-    filename='registro_accesos.log', # Log 
-    level=logging.INFO, # Registers INFO and upper levels (Ignores debug)
-    format='%(asctime)s - [%(levelname)s] - %(message)s', # Format: Date - Level - Message
-    datefmt='%Y-%m-%d %H:%M:%S' # Date format: Year-Month-Day Hour:Minute:Second
+
+# Make a log-dedicated folder
+logsDirectory=os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
+if not os.path.exists(logsDirectory):
+    os.makedirs(logsDirectory)
+
+# Configure log rotation
+logsPath=os.path.join(logsDirectory, "registro_accesos.log")
+
+dailyHandler=TimedRotatingFileHandler(
+    filename=logsPath, # Sets the file name
+    when='midnight', # Ends log at midnight
+    interval=1, # Each day
+    backupCount=100, # Keeps the last 100 days
+    encoding='utf-8' # Human text
 )
+
+# Format: Date - Level - Message, Year-Month-Day Hour:Minute:Second
+format=logging.Formatter('%(asctime)s - [%(levelname)s] - %(message)s', '%Y-%m-%d %H:%M:%S')
+dailyHandler.setFormatter(format)
+
+# Activate main logger
+logger=logging.getLogger()
+logger.setLevel(logging.INFO) # Registers INFO and upper levels (Ignores debug)
+logger.addHandler(dailyHandler)
+
 # ----------------------------
 
 
