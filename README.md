@@ -8,7 +8,7 @@ Este es un sistema de control de acceso modular basado en Python y SQLite. Utili
 * `qr_scanner.py`: Módulo de visión. Maneja la cámara web usando OpenCV y Pyzbar, tolerante a fallos de hardware.
 * `admin_backend.py`: Panel de control (CRUD). Permite registrar usuarios, darlos de baja y leer el historial de la puerta.
 * `database_connect.py` / `database_setup.py`: Archivos de configuración y conexión a la base de datos SQLite.
-* `logs/`: Carpeta autogenerada que guarda el historial de accesos y de administrador (rotación de 10 días).
+* `logs/`: Carpeta autogenerada que guarda el historial de accesos y de administrador (rotación de 100 días).
 * `gimnasio.db`: Base de datos local (se genera automáticamente).
 
 ## 🛠️ Requisitos Previos e Instalación
