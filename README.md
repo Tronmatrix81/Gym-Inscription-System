@@ -18,7 +18,7 @@ Necesitas Python 3 instalado en tu sistema. Antes de correr el código, debes in
 **Windows**
 
     \`\`\`bash
-    pip install opencv-python pyzbar
+    pip install opencv-python-headless pyzbar
     \`\`\`
 
 **Linux (Debian / Raspberry Pi OS)**
@@ -26,10 +26,8 @@ Necesitas Python 3 instalado en tu sistema. Antes de correr el código, debes in
     \`\`\`bash
     sudo apt-get update
     sudo apt-get install libzbar0
-    pip install opencv-python pyzbar
+    pip install opencv-python-headless pyzbar
     \`\`\`
-
-**Posdata: Para que no abra una ventana mostrando la camara, instala opencv-python-headless**
 
 ## 🚀 Cómo usar el sistema
 
