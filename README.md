@@ -54,5 +54,4 @@ Abre una terminal nueva y ejecuta el panel para dar de alta usuarios o ver el hi
     \`\`\`
 
 ## 📝 Notas de Hardware
-* El sistema usa `cv2.CAP_DSHOW` en Windows para evitar crasheos al encender/apagar la cámara rápidamente. En Linux, OpenCV manejará los dispositivos de video nativos sin problema.
 * Cuando se migre a hardware real (Raspberry Pi), la lógica de la chapa magnética (maglock) se integrará en `main.py` usando la librería `gpiozero`.
