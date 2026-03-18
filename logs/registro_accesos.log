@@ -1,2 +1,146 @@
-2026-03-15 21:25:42 - [INFO] - Sistema de acceso INICIADO.
-2026-03-15 21:29:24 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:45:23 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:46:14 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 22:46:27 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:46:27 - [ERROR] - Fallo de hardware: No se detecto ninguna camara o escaner USB conectado al iniciar.
+2026-03-17 22:46:29 - [ERROR] - Fallo de hardware: No se detecto ninguna camara o escaner USB conectado al iniciar.
+2026-03-17 22:46:31 - [ERROR] - Fallo de hardware: No se detecto ninguna camara o escaner USB conectado al iniciar.
+2026-03-17 22:46:31 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 22:49:24 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:49:27 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 22:51:39 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:52:46 - [WARNING] - Intento de acceso con credencial falsa: 394350
+2026-03-17 22:52:59 - [WARNING] - Intento de acceso con credencial falsa: 504400
+2026-03-17 22:53:26 - [WARNING] - Intento de acceso con credencial falsa: 394350
+2026-03-17 22:53:30 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 22:53:51 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:53:58 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 22:54:15 - [WARNING] - Intento de acceso con credencial falsa: A3943504400
+2026-03-17 22:54:31 - [WARNING] - Intento de acceso con credencial falsa: 394350
+2026-03-17 22:54:35 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 22:59:45 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 22:59:55 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:00:12 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:00:23 - [WARNING] - Intento de acceso con credencial falsa: 394350
+2026-03-17 23:01:01 - [WARNING] - Intento de acceso con credencial falsa: https://validacion.uach.mx/credencial/394569
+2026-03-17 23:01:53 - [INFO] - Acceso concedido. Usuario: Caleb (Matricula: 394468)
+2026-03-17 23:02:05 - [INFO] - Acceso concedido. Usuario: Erik (Matricula: 394569)
+2026-03-17 23:02:14 - [WARNING] - Acceso denegado. Matricula no encontrada: 394560
+2026-03-17 23:02:30 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:13:00 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:13:09 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:13:50 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:13:56 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:17:23 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:17:23 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'
+
+2026-03-17 23:19:01 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:19:01 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'
+
+2026-03-17 23:19:18 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:19:23 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:22:10 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:22:11 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:13 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:15 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:18 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:20 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:22 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:25 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:27 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:29 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:32 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:34 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:36 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:39 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:41 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:43 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:46 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:48 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:50 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:53 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:55 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:22:57 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:00 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:02 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:04 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:07 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:09 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:11 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:14 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:16 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:19 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:21 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:23 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:26 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:28 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:30 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:33 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:35 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:37 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:40 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:42 - [ERROR] - Error critico en el modulo de escaneo: OpenCV(4.13.0) /io/opencv/modules/highgui/src/window.cpp:1367: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvWaitKey'
+
+2026-03-17 23:23:44 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:40:51 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:41:00 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:42:22 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:42:38 - [WARNING] - Intento de acceso con credencial falsa: 394350
+2026-03-17 23:43:11 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:43:17 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:43:28 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:45:18 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:50:51 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:50:54 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:51:28 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:51:35 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:52:08 - [WARNING] - Intento de acceso con credencial falsa: https://verificaci鏮.uach.mx/credencial/394350
+2026-03-17 23:52:35 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:53:01 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:53:09 - [WARNING] - Intento de acceso con credencial falsa: 3943504400
+2026-03-17 23:53:24 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:54:57 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:55:00 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).
+2026-03-17 23:55:20 - [INFO] - Sistema de acceso INICIADO.
+2026-03-17 23:55:24 - [WARNING] - Intento de acceso con credencial falsa: 3943504400
+2026-03-17 23:55:31 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:55:38 - [INFO] - Acceso concedido. Usuario: Justie (Matricula: 394350)
+2026-03-17 23:55:47 - [INFO] - El sistema de acceso fue apagado manualmente (Ctrl+C).

@@ -29,6 +29,8 @@ Necesitas Python 3 instalado en tu sistema. Antes de correr el código, debes in
     pip install opencv-python pyzbar
     \`\`\`
 
+**Posdata: Para que no abra una ventana mostrando la camara, instala opencv-python-headless**
+
 ## 🚀 Cómo usar el sistema
 
 ### 1. Preparar la Base de Datos (Solo la primera vez)

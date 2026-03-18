@@ -16,6 +16,7 @@ import os
 # Import our python files as if they were libraries
 from qr_scanner import scan_qr
 from access_validation import validate_access
+from id_verification import id_verification
 
 # --- LOG STRUCTURE CONFIG ---
 
@@ -62,10 +63,16 @@ if __name__=="__main__":
     while True:
         try:
             # Awaits for any input
-            matricula=scan_qr()
+            rawMatricula=scan_qr()
 
-            if matricula:
-                validate_access(matricula)
+            # Cleans matricula
+            if rawMatricula:
+                matricula=id_verification(rawMatricula)            
+                if matricula:
+                    validate_access(matricula)
+                else:
+                    print(f"Matricula falsa detectada")
+                    logging.warning(f"Intento de acceso con credencial falsa: {rawMatricula}")
 
             time.sleep(2)
             

@@ -39,15 +39,15 @@ logger.addHandler(adminHandler)
 #-----------------
 
 
-conection=connect_database()
+connection=connect_database()
 
 def register_user(matricula, nombre):
     # Register a new user (active by default)
     try:
-        with conection:
-            cursor=conection.cursor()
+        with connection:
+            cursor=connection.cursor()
             cursor.execute("INSERT INTO miembros (matricula, nombre, activo) VALUES (?,?,1)", (matricula, nombre))
-            conection.commit()
+            connection.commit()
 
             print(f"Usuario {nombre} ({matricula}) ha sido dado de alta correctamente")
             logging.info(f"Usuario {nombre} ({matricula}) ha sido dado de alta correctamente.")
@@ -59,8 +59,8 @@ def register_user(matricula, nombre):
 
 def alternate_user_status(matricula):
     # Changes the user status to active or inactive
-    with conection:
-        cursor=conection.cursor()
+    with connection:
+        cursor=connection.cursor()
         cursor.execute("SELECT nombre, activo FROM miembros WHERE matricula = ?", (matricula,))
         result=cursor.fetchone()
 
@@ -72,7 +72,7 @@ def alternate_user_status(matricula):
             status_str="ACTIVADO" if newStatus == 1 else "DESACTIVADO"
 
             cursor.execute("UPDATE miembros SET activo = ? WHERE matricula = ?", (newStatus, matricula))
-            conection.commit()
+            connection.commit()
 
             print(f"Usuario {name} ({matricula}) ha sido {status_str}")
             logging.info(f"Usuario {name} ({matricula}) ha sido {status_str}.")
@@ -84,8 +84,8 @@ def list_users():
     # Prints the user list
     logging.info("El administrador leyo la lista de usuarios")
     print("\n--- DIRECTORIO DEL GIMNASIO ---")
-    with conection:
-        cursor=conection.cursor()
+    with connection:
+        cursor=connection.cursor()
         cursor.execute("SELECT matricula, nombre, activo FROM miembros")
         for matricula, name, active in cursor.fetchall():
             status="Activo" if active==1 else "Inactivo"
@@ -145,6 +145,36 @@ def log_history(isAdmin=False):
     except (ValueError, IndexError):
         print("Opcion no valida, regresando al menu")
 
+def delete_user(matricula):
+    # Permanently removes a user from database
+    with connection:
+        cursor=connection.cursor()
+
+        # Search for the user
+        cursor.execute("SELECT nombre FROM miembros WHERE matricula = ?", (matricula,))
+        result=cursor.fetchone()
+
+        if result:
+            name=result[0]
+
+            # Security check before deleting user
+            confirm=input(f"¿Estas seguro que deseas ELIMINAR a {name} ({matricula})? (S/N): ").strip().lower()
+
+            if confirm=='s':
+                cursor.execute("DELETE FROM miembros WHERE matricula = ?", (matricula,))
+                connection.commit()
+
+                print(f"Usuario {name} ({matricula}) ha sido eliminado permanentemente.")
+                logging.info(f"Usuario {name} ({matricula}) ha sido eliminado permanentemente.")
+            else:
+                print("Operacion cancelada. El usuario no fue eliminado")
+        else:
+            # If no user was found during SELECT
+            print(f"Error: Matrícula {matricula} no encontrada en el sistema.")
+            logging.warning(f"Error: Matrícula {matricula} no encontrada en el sistema.")
+
+
+
 # --- MENÚ DE TERMINAL (Para usarlo hoy) ---
 if __name__ == "__main__":
     logging.info("La consola de admin ha sido abierta")
@@ -156,7 +186,8 @@ if __name__ == "__main__":
             print("3. Activar / Desactivar usuario")
             print("4. Ver historial de logs")
             print("5. Ver historial de logs (admin)")
-            print("6. Salir")
+            print("6. Dar de baja a un usuario")
+            print("7. Salir")
             
             opcion = input("Elige una opción: ").strip()
             
@@ -173,7 +204,10 @@ if __name__ == "__main__":
                 log_history()
             elif opcion=='5':
                 log_history(True)
-            elif opcion == '6':
+            elif opcion=='6':
+                matricula=input("Matricula a dar de baja: ").strip()
+                delete_user(matricula)
+            elif opcion == '7':
                 print("Cerrando terminal...")
                 logging.info("La consola de admin ha sido cerrada")
                 break
